@@ -3,7 +3,5 @@ function portkey() {
 }
 
 
-$(document).ready(function(){
-    $('[data-toggle="popover"]').popover();   
-});
+
 
