@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="mycss.css">
+  <script src="myjs.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/607359f621.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" >
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#folio">Portfolio</a></li>
+          <li><a href="#">Live Demo(GitHub)</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div  id ="intro" class="container-fluid jumbotron text-center">
+    <h3>Who Am I?</h3>
+    <img src="https://gravatar.com/avatar/5b2ccb5216ed4ed0044035ce01b3435f?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-fd2a2ade7f141e06f8fd94c000d6ac7a.png"  class="img-circle" alt="Me">
+    <p> Hi I am Alan, I love to code.
+  I specialise in Front End Web Development and Metero.js</p>
+    <p>I have a practical knowledge of a number languages, frameworks and emerging technologies such as the Internet of Thing (IoT)
+  .I am also a founder and mentor of a couple of Coder Dojos .
+  </p>
+
+    <h3 class="text-center">Contact me today for a quote!</h3>
+    </br>
+    <form action="https://formspree.io/mach1982@gmail.com" class="form-inline" method="POST">
+      <input type="text" name="_subject" placeholder="Subject (form not woking on codepen)"  class="form-control" size="50">
+      <input name="_replyto" type="email" class="form-control" size="50" placeholder="Email Address (form not woking on codepen)">
+      <button type="submit" class="btn btn-danger">Contact</button>
+    </form>
+    </br>
+    <button onclick="fb()"id ="fb" type="button" class="btn btn-primary">Facbook <i class="fa fa-facebook-square"></i></button>
+     <button onclick="twit()" id="twit" type="button" class="btn btn-info">Twitter  <i class="fa fa-twitter-square"></i></button>
+  <button  onclick="git()" id="git" type="button" class="btn btn-success">GitHub  <i class="fa fa-github-square"></i></button>
+  <button onclick="linked()" id="linked" type="button" class="btn btn-info">Linkedin<i class="fa fa-linkedin-square"></i></button>
+
+
+    </div>
+
+  <div id ="folio" class="container-fluid  text-center">
+   <h2>-----------------------</h2>
+    <h1 class="jumbotron"><strong>PORTFOLIO</strong></h1>
+
+    <h2>-----------------------</h2>
+  <br>
+    <a href="https://mach-meteor-todo.herokuapp.com/" target="_blank"><img src="http://mach1982.github.io/images/metero.PNG" class="img-thumbnail" alt="Metero.js Sample App" width="304" height="236"></a>
+
+   <img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder1-1024x769.png" class="img-thumbnail" alt="Placeholder" width="304" height="236">
+
+   <img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder1-1024x769.png" class="img-thumbnail" alt="Placeholder" width="304" height="236">
+
+    <img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder1-1024x769.png" class="img-thumbnail" alt="Placeholder" width="304" height="236">
+
+      </div>
+   </div>
+  <br>
+  <fotter class="text-center">
+  <p>Coded by :<a href="https://www.freecodecamp.com/mach1982" target="_blank">Ailin Mac Hugh </a>.</p>
+      </footer>
+
+</body>
+</html>
