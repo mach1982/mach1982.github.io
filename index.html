@@ -1,94 +1,85 @@
-<html>
-
-<title>Hello Git </title>
-
-
+<!DOCTYPE html>
+<html lang="en">
 <head>
-<link rel="stylesheet" type="text/css" href="style.css">  
-<script src="mach.js"></script>
+  <title>Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<link rel="stylesheet" href="mycss.css">
+  <script src="myjs.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+    <script src="https://use.fontawesome.com/607359f621.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+</head>
+<body>
 
-<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
- <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
- 
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" >
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#folio">Portfolio</a></li>
+          <li><a href="http://mach1982.github.io/portfolio/index.html">Live Demo(GitHub)</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
 
+  <div  id ="intro" class="container-fluid jumbotron text-center">
+    <h3>Who Am I?</h3>
+    <img src="https://gravatar.com/avatar/5b2ccb5216ed4ed0044035ce01b3435f?s=80&d=https://codepen.io/assets/avatars/user-avatar-80x80-fd2a2ade7f141e06f8fd94c000d6ac7a.png"  class="img-circle" alt="Me">
+    <p> Hi I am Alan, I love to code.
+  I specialise in Front End Web Development and Metero.js</p>
+    <p>I have a practical knowledge of a number languages, frameworks and emerging technologies such as the Internet of Thing (IoT)
+  .I am also a founder and mentor of a couple of Coder Dojos .
+  </p>
 
- </head>
- <style>
- .bg-1 {
-    background-color: #d0e4fe;
-}
-</style>
- <body>
-  <div class="container-fluid bg-1 ">
-
-<h1> About Me  </h1>
-
-
-<p>Hi my name Alan I'm 34 and menteor with <a href="https://coderdojo.com">Coder Dojo.</a></p>
-<p>I love to code!!</p>
-
-<p>So this is  my Git Hub home page , I do host my own site at <a herf ="http://portkey.dyndns.info">www.portkey.dyndns.info</a> but as computer hsting needs to updated the site might not be up all the time. Here I will post up news on any  Applications I am devloping </p>
-
-
-<h3>Favorite Programming Lanuages</h3>
-
-<li>JavaScript</li>
-<li>HTML</li>
-<li>Perl</li>
-<li>Java</li>
-<li>PHP</li>
-
-<br>
-<br>
-
-<h3>My Favorite Frameworks</h3>
-
-<li>Node.js</li>
-<li>Bootstrap </li>
-<li>MIT App Inventeor</li>
-<li>Java Bridge for MIT App Inventeor </li>
-<br>
-<br>
-
-
-<h3>My Favorite IDEs/Text Editors </h3>
-
-<li>InteliJ</li>
-<li>Android Studio</li>
-<li>Eclispe/li>
-<li>JBrackets</li>
-<li>Sublime</li>
-<br>
-<br>
+    <h3 class="text-center">Contact me today for a quote!</h3>
+    </br>
+    <form action="https://formspree.io/mach1982@gmail.com" class="form-inline" method="POST">
+      <input type="text" name="_subject" placeholder="Subject "  class="form-control" size="50">
+      <input name="_replyto" type="email" class="form-control" size="50" placeholder="Email Address">
+      <button type="submit" class="btn btn-danger">Contact</button>
+    </form>
+    </br>
+    <button onclick="fb()"id ="fb" type="button" class="btn btn-primary">Facbook <i class="fa fa-facebook-square"></i></button>
+     <button onclick="twit()" id="twit" type="button" class="btn btn-info">Twitter  <i class="fa fa-twitter-square"></i></button>
+  <button  onclick="git()" id="git" type="button" class="btn btn-success">GitHub  <i class="fa fa-github-square"></i></button>
+  <button onclick="linked()" id="linked" type="button" class="btn btn-info">Linkedin<i class="fa fa-linkedin-square"></i></button>
 
 
-<h3>My Favorite Operating System </h3>
+    </div>
 
-<li>Linux</li>
-   <ul>
-    <li>Ubuntu</li>
-    <li>Linux Mint</li>
-   </ul>
+  <div id ="folio" class="container-fluid  text-center">
+   <h2>-----------------------</h2>
+    <h1 class="jumbotron"><strong>PORTFOLIO</strong></h1>
 
+    <h2>-----------------------</h2>
+  <br>
+    <a href="https://mach-meteor-todo.herokuapp.com/" target="_blank"><img src="http://mach1982.github.io/images/metero.PNG" class="img-thumbnail" alt="Metero.js Sample App" width="304" height="236"></a>
 
-<h3>Current Projects</h3>
-<br>
+   <img src="http://mach1982.github.io/dobby.html" class="img-thumbnail" alt="Dobby is Free" width="304" height="236">
 
+   <img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder1-1024x769.png" class="img-thumbnail" alt="Placeholder" width="304" height="236">
 
-<h5>MIT Appinventeor</h5>
-<ul>
-<li> Puke (A sick line App) </li> 
-</ul>
- 
+    <img src="http://www.pacinno.eu/wp-content/uploads/2014/05/placeholder1-1024x769.png" class="img-thumbnail" alt="Placeholder" width="304" height="236">
 
-<br>
-<br>
+      </div>
+   </div>
+  <br>
+  <fotter class="text-center">
+  <p>Coded by :<a href="https://www.freecodecamp.com/mach1982" target="_blank">Ailin Mac Hugh </a>.</p>
+      </footer>
 
-
-
-
-</boady>
-
-
+</body>
 </html>
