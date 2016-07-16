@@ -1,22 +1,4 @@
-body {
-    background-color: #d0e4fe;
-}
-
-h1 {
-    color: orange;
-    text-align: center;
-}
-
-p {
-    font-family: "Times New Roman";
-    font-size: 20px;
-}
-
-table, th, td {
-    border: 1px solid black;
-    border-collapse: collapse;
-}
-th, td {
-    padding: 5px;
-    text-align: left;    
+#intro { 
+    background-color: #1abc9c; /* Orange */
+    color: #ffffff;
 }
