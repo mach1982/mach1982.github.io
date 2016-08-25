@@ -1,7 +1,9 @@
 body{
   
     background: url("http://www.lanes.ie/bg-1-136591.jpeg");
-    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     background-repeat: no-repeat;
     padding-top: 40px;
 }
