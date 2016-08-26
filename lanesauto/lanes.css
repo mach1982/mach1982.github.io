@@ -5,7 +5,7 @@ body {
 }
 .navbar {
     font-family: Montserrat, sans-serif;
-     margin-top: 60px;
+     margin-bottom: 60px;
 }
   
   .container {
@@ -27,11 +27,7 @@ body {
       width: 70%;
       margin: auto;
   }
-.logo{
-  max-with: 100%;
-   height: auto;
-  
-}
+
   
 
 
