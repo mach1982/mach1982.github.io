@@ -26,7 +26,12 @@ body {
       margin: auto;
   }
   
-  .logo{
+  #logo{
+      div {
+    max-width: 100%;
+    height: 100px;
+  
+}
       
       
    
