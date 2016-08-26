@@ -1,6 +1,7 @@
 body {
     font: 400 15px/1.8 Lato, sans-serif;
     color: #777;
+
 }
 .navbar {
     font-family: Montserrat, sans-serif;
@@ -25,16 +26,22 @@ body {
       width: 70%;
       margin: auto;
   }
+.logo{
+  max-with: 100%;
+   height: auto;
   
-  img {
+}
+  
+img {
     display: block;
     position: absolute;
     width: 100%;
     bottom: 0;
     left: 0;
-    
+    background: red;
     height: 300px;}
-      
+  
+
       
    
     
