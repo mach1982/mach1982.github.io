@@ -55,6 +55,13 @@ $(document).ready(function(){
       
       
      }
+     
+     if (weather==="clear sky"){
+      
+       $('.jumbotron').css("background-image", "url(http://www.hotel-r.net/im/hotel/gb/clear-sky-23.jpg)");
+      
+      
+     }
    
     var unit="C";
     var temp=temp_c;
