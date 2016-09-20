@@ -8,7 +8,7 @@ $(document).ready(function(){
  var clear";
  var snow";
  
- $('.jumbotron').css("background-image", "url(cloudy)");
+ $('.jumbotron').css("background-image", "url(+'cloudy'+)");
  
  
   var country;
