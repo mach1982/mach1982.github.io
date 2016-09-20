@@ -46,7 +46,7 @@ $(document).ready(function(){
      
      if (weather==="clear sky"){
       
-       $('.jumbotron').css("background-image", "url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS8pVcyiSl8TornjugJnc-Hbp0Xk1hyRJInykM1sLqiEYrByW6T_g)");
+       $('.jumbotron').css("background-image", "url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS8pVcyiSl8TornjugJnc-Hbp0Xk1hyRJInykM1sLqiEYrByW6T_g)","background-repeat:"," no-repeat");
       
       
      }
