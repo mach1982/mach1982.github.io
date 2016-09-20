@@ -44,7 +44,7 @@ $(document).ready(function(){
     //alert(weather);
      weather=json.weather[0].main;
      
-     if (weather =="clear"){
+     if (weather==="Clear"){
       
        $('.jumbotron').css("background-image", "url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS8pVcyiSl8TornjugJnc-Hbp0Xk1hyRJInykM1sLqiEYrByW6T_g)");
       
