@@ -8,7 +8,7 @@ $(document).ready(function(){
  var clear";
  var snow";
  
- $('.jumbotron').css("background-image", "url(+'cloudy'+)");
+ $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
  
  
   var country;
@@ -52,9 +52,9 @@ $(document).ready(function(){
     //alert(weather);
      weather=json.weather[0].description;
      
-     if (weather==="clear sky"){
+     if (weather==="	few clouds"||"scattered clouds"||"	broken clouds"){
       
-       $('.jumbotron').css("background-image", "url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS8pVcyiSl8TornjugJnc-Hbp0Xk1hyRJInykM1sLqiEYrByW6T_g)","background-repeat:"," no-repeat");
+       $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
       
       
      }
