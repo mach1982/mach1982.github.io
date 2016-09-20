@@ -1,7 +1,7 @@
 
 $(document).ready(function(){
  
- 
+ //http://openweathermap.org/weather-conditions
  
 
  
