@@ -1,7 +1,15 @@
 
 $(document).ready(function(){
  
- $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
+ 
+ 
+ var rain="";
+ var cloudy="http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg";
+ var clear";
+ var snow";
+ 
+ $('.jumbotron').css("background-image", "url(cloudy)");
+ 
  
   var country;
   var temp_c;
