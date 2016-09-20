@@ -58,7 +58,7 @@ $(document).ready(function(){
      
      if (weather==="clear sky"){
       
-       $('.jumbotron').css("background-image", "url(http://www.hotel-r.net/im/hotel/gb/clear-sky-23.jpg)");
+       $('.jumbotron').css("background-image", "url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSORBB7yaJY63qvi6qExt4Pf7VzEdjVhngepwh4BIIjRmaawabQ)");
       
       
      }
