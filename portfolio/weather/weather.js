@@ -42,9 +42,9 @@ $(document).ready(function(){
     
     //weather=json.weather[0].description;
     //alert(weather);
-     weather=json.weather[0].main;
+     weather=json.weather[0].description;
      
-     if (weather==="Clear"){
+     if (weather==="clear sky"){
       
        $('.jumbotron').css("background-image", "url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcS8pVcyiSl8TornjugJnc-Hbp0Xk1hyRJInykM1sLqiEYrByW6T_g)");
       
