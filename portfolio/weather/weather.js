@@ -3,10 +3,7 @@ $(document).ready(function(){
  
  
  
- var rain="";
- var cloudy="http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg";
- var clear;
- var snow";
+
  
  $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
  
