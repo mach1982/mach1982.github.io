@@ -40,8 +40,9 @@ $(document).ready(function(){
     icon = json.weather[0].icon;
     //alert(icon);
     
-    weather=json.weather[0].description;
+    //weather=json.weather[0].description;
     //alert(weather);
+     weather=json.weather[0].main;
    
     var unit="C";
     var temp=temp_c;
