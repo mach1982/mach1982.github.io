@@ -1,5 +1,6 @@
 body  {
-    background-image: url("http://media-cache-ak0.pinimg.com/736x/ba/23/be/ba23be35a0aba41c1f5b5862b84aaabc.jpg");
- height: auto;
-   
+    background: url(hogwarts.jpg);
+ background-size:cover
+     background-repeat:no-repeat;
+
 }
