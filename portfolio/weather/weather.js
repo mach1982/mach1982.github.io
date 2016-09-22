@@ -1,8 +1,8 @@
 
 $(document).ready(function(){
-<<<<<<< HEAD
 
-=======
+
+
  
  //http://openweathermap.org/weather-conditions
  
@@ -78,7 +78,7 @@ $(document).ready(function(){
       
      }
    
->>>>>>> 4f06516ba8fee238471b58b42be3e6245dc72d99
+
     var unit="C";
     var temp=temp_c;
 
