@@ -53,12 +53,12 @@ $(document).ready(function(){
 
     icon = json.weather[0].icon;
     //alert(icon);
-<<<<<<< HEAD
+
 
     weather=json.weather[0].description;
     //alert(weather);
 
-=======
+
     
     //weather=json.weather[0].description;
     //alert(weather);
