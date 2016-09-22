@@ -66,14 +66,14 @@ $(document).ready(function(){
      
      if (weather==="	few clouds"||"scattered clouds"||"	broken clouds"){
       
-       $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
+       $('.jumbotron').css("background-image", "url(cloudy.png)");
       
       
      }
      
      if (weather==="clear sky"){
       
-       $('.jumbotron').css("background-image", "url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSORBB7yaJY63qvi6qExt4Pf7VzEdjVhngepwh4BIIjRmaawabQ)");
+       $('.jumbotron').css("background-image", "url(clear_sky.png)");
       
       
      }
