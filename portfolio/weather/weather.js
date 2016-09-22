@@ -1,6 +1,17 @@
 
 $(document).ready(function(){
+<<<<<<< HEAD
 
+=======
+ 
+ //http://openweathermap.org/weather-conditions
+ 
+
+ 
+ $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
+ 
+ 
+>>>>>>> 4f06516ba8fee238471b58b42be3e6245dc72d99
   var country;
   var temp_c;
   var temp_f;
@@ -42,10 +53,32 @@ $(document).ready(function(){
 
     icon = json.weather[0].icon;
     //alert(icon);
+<<<<<<< HEAD
 
     weather=json.weather[0].description;
     //alert(weather);
 
+=======
+    
+    //weather=json.weather[0].description;
+    //alert(weather);
+     weather=json.weather[0].description;
+     
+     if (weather==="	few clouds"||"scattered clouds"||"	broken clouds"){
+      
+       $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
+      
+      
+     }
+     
+     if (weather==="clear sky"){
+      
+       $('.jumbotron').css("background-image", "url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcSORBB7yaJY63qvi6qExt4Pf7VzEdjVhngepwh4BIIjRmaawabQ)");
+      
+      
+     }
+   
+>>>>>>> 4f06516ba8fee238471b58b42be3e6245dc72d99
     var unit="C";
     var temp=temp_c;
 
