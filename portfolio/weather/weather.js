@@ -82,7 +82,7 @@ $(document).ready(function(){
     var unit="C";
     var temp=temp_c;
 
-    if()
+    
 
     $("#but_f").click(function(){
       unit="F";
