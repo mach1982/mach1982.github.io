@@ -11,7 +11,7 @@ $(document).ready(function(){
  $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
  
  
->>>>>>> 4f06516ba8fee238471b58b42be3e6245dc72d99
+
   var country;
   var temp_c;
   var temp_f;
