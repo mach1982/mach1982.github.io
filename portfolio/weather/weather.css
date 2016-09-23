@@ -1,5 +1,6 @@
 .jumbotron{
-  background-image: url("cloudy.jpg");
-
+  background: url("cloudy.pmg");
+  background-size: 2024px 1024px;
+  background-repeat: no-repeat;
     text-align:center;
 }
