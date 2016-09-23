@@ -11,9 +11,8 @@ $(document).ready(function(){
 
 
 
- //$('.jumbotron').css("background", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
 
-// $('.jumbotron').css("background", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
+ //$('.jumbotron').css("background", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
 
 
 
@@ -73,10 +72,13 @@ $(document).ready(function(){
 
          $('.jumbotron').css({'background-image':'url(clouds.jpg)','background-repeat' : 'no-repeat'});
 
+
       }
       else {
 
         ('.jumbotron').css({'background-image':'url(clouds.jpg)','background-repeat' : 'no-repeat'});
+
+
 
       }
 
