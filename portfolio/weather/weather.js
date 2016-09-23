@@ -66,7 +66,7 @@ $(document).ready(function(){
 
      if (weather==="few clouds"||"scattered clouds"||"broken clouds"){
 
-        $('.jumbotron').css("background","background-repeat: no-repeat", "url(cloudy.jpg)");
+        $('.jumbotron').css("background", "url(cloudy.jpg)",,"background-repeat", "no-repeat");
 
       }
       
@@ -74,7 +74,7 @@ $(document).ready(function(){
 
      if (weather==="clear sky"){
 
-       $('.jumbotron').css("background", "background-repeat: no-repeat","url(clear_sky.png)");
+       $('.jumbotron').css("background", ,"url(clear_sky.png)","background-repeat", "no-repeat");
       
      }
      else{
