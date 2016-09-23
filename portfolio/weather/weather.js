@@ -3,14 +3,14 @@ $(document).ready(function(){
 
 
 
- 
- //http://openweathermap.org/weather-conditions
- 
 
- 
+ //http://openweathermap.org/weather-conditions
+
+
+
  $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
- 
- 
+
+
 
   var country;
   var temp_c;
@@ -59,30 +59,52 @@ $(document).ready(function(){
     //alert(weather);
 
 
-    
+
     //weather=json.weather[0].description;
     //alert(weather);
      weather=json.weather[0].description;
-     
-     if (weather==="	few clouds"||"scattered clouds"||"	broken clouds"){
-      
-       $('.jumbotron').css("background-image", "url(cloudy.png)");
-      
-      
-     }
-     
+
+     if (weather==="few clouds"||"scattered clouds"||"broken clouds"){
+
+        $('.jumbotron').css("background-image", "url(cloudy.png)");
+
+      }
+
+
      if (weather==="clear sky"){
-      
+
        $('.jumbotron').css("background-image", "url(clear_sky.png)");
-      
-      
+
+
      }
-   
+
+
+     if (weather==="shower rain"||"	rain"){
+
+       $('.jumbotron').css("background-image", "url(rainy.png)");
+
+
+     }
+
+     if (weather==="snow"){
+
+       $('.jumbotron').css("background-image", "url(snow.jpg)");
+
+
+     }
+
+     if (weather==="thunder"){
+
+       $('.jumbotron').css("background-image", "url(thunder.jpg)");
+
+
+     }
+
 
     var unit="C";
     var temp=temp_c;
 
-    
+
 
     $("#but_f").click(function(){
       unit="F";
@@ -103,7 +125,7 @@ $(document).ready(function(){
   var url="http://www.geognos.com/api/en/countries/flag/"+country+".png";
   var icon_url="http://openweathermap.org/img/w/"+icon+".png"
 
-  
+
 
  $("#flag").append('<img src="' + url + '" style="width:90px;height:50px;"/>');
 
