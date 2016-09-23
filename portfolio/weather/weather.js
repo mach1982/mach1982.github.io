@@ -69,7 +69,7 @@ $(document).ready(function(){
         $('.jumbotron').css("background","background-repeat: no-repeat", "url(cloudy.jpg)");
 
       }
-      }
+      
 
 
      if (weather==="clear sky"){
