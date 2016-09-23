@@ -6,9 +6,11 @@ $(document).ready(function(){
 
  //http://openweathermap.org/weather-conditions
 
+ //https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat
 
 
- $('.jumbotron').css("background-image", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
+
+ $('.jumbotron').css("background", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
 
 
 
@@ -30,7 +32,7 @@ $(document).ready(function(){
 
  country=data.countryCode;
 
-     $.getJSON("https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&units=imperial&APPID=64c45a572899067dd41b4e88a80725a5",function(jsonf){
+     $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&units=imperial&APPID=64c45a572899067dd41b4e88a80725a5",function(jsonf){
 
        temp_f=JSON.stringify(jsonf.main.temp);
        //alert(temp_f);
@@ -39,7 +41,7 @@ $(document).ready(function(){
 
 
 
-  $.getJSON("https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&units=metric&APPID=64c45a572899067dd41b4e88a80725a5",function(json){
+  $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&units=metric&APPID=64c45a572899067dd41b4e88a80725a5",function(json){
     console.log(lat);
      console.log(long);
 
@@ -60,20 +62,18 @@ $(document).ready(function(){
 
 
 
-    //weather=json.weather[0].description;
-    //alert(weather);
-     weather=json.weather[0].description;
+
 
      if (weather==="few clouds"||"scattered clouds"||"broken clouds"){
 
-        $('.jumbotron').css("background-image", "url(cloudy.png)");
+        $('.jumbotron').css("background","background-repeat: no-repeat", "url(cloudy.jpg)");
 
       }
 
 
      if (weather==="clear sky"){
 
-       $('.jumbotron').css("background-image", "url(clear_sky.png)");
+       $('.jumbotron').css("background", "background-repeat: no-repeat","url(clear_sky.png)");
 
 
      }
@@ -81,21 +81,21 @@ $(document).ready(function(){
 
      if (weather==="shower rain"||"	rain"){
 
-       $('.jumbotron').css("background-image", "url(rainy.png)");
+       $('.jumbotron').css("background", "background-repeat: no-repeat","url(rainy.jpg)");
 
 
      }
 
      if (weather==="snow"){
 
-       $('.jumbotron').css("background-image", "url(snow.jpg)");
+       $('.jumbotron').css("background","background-repeat: no-repeat", "url(snow.jpg)");
 
 
      }
 
      if (weather==="thunder"){
 
-       $('.jumbotron').css("background-image", "url(thunder.jpg)");
+       $('.jumbotron').css("background-image","background-repeat: no-repeat", "url(thunder.jpg)");
 
 
      }
