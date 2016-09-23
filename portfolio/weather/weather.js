@@ -66,7 +66,7 @@ $(document).ready(function(){
 
      if (weather==="few clouds"||"scattered clouds"||"broken clouds"){
 
-        $('.jumbotron').css("background", "url(cloudy.jpg)",,"background-repeat", "no-repeat");
+        $('.jumbotron').css("background", "url(cloudy.jpg)","background-repeat", "no-repeat");
 
       }
       
