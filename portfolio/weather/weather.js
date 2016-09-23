@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 
 
- $('.jumbotron').css("background", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
+ //$('.jumbotron').css("background", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
 
 
 
@@ -66,7 +66,7 @@ $(document).ready(function(){
 
      if (weather==="few clouds"||"scattered clouds"||"broken clouds"){
 
-        $('.jumbotron').css("background","background-repeat: no-repeat", "url(cloudy.jpg)");
+        $('.jumbotron').css("background","background-repeat: no-repeat", "url(clouds.jpg)");
 
       }
 
