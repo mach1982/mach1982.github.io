@@ -74,8 +74,11 @@ $(document).ready(function(){
      if (weather==="clear sky"){
 
        $('.jumbotron').css("background", "background-repeat: no-repeat","url(clear_sky.png)");
-
-
+      
+     }
+     else{
+      $('.jumbotron').css("background", "url(cloudy.jpg)");
+      
      }
 
 
