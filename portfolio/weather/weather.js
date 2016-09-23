@@ -42,8 +42,8 @@ $(document).ready(function(){
 
 
   $.getJSON("http://api.openweathermap.org/data/2.5/weather?lat="+lat+"&lon="+long+"&units=metric&APPID=64c45a572899067dd41b4e88a80725a5",function(json){
-    console.log(lat);
-     console.log(long);
+    //console.log(lat);
+     //console.log(long);
 
     //temp_c = JSON.stringify(json.main.temp);
     temp_c ==13;
