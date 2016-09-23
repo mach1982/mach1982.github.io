@@ -10,7 +10,7 @@ $(document).ready(function(){
 
 
 
- $('.jumbotron').css("background", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
+// $('.jumbotron').css("background", "url(http://www.familyandhome.org/sites/g/files/g20561/f/clouds.jpg)");
 
 
 
