@@ -26,6 +26,7 @@ $(document).ready(function(){
   var long;
   var icon;
   var weather;
+  var weather_id;
 
   $.getJSON("http://ip-api.com/json", function(data){
   lat=data.lat;
@@ -60,14 +61,15 @@ $(document).ready(function(){
     //alert(icon);
 
 
+    weather_id=json.weather[0].id;
     weather=json.weather[0].description;
-    //alert(weather);
+    alert(weather);
 
 
 
 
 
-     if (weather==="few clouds"||"scattered clouds"||"broken clouds"||"overcast clouds"){
+     if (weather_id===801||802||803||804){
 
 
          $('.jumbotron').css({'background-image':'url(clouds.jpg)','background-repeat' : 'no-repeat'});
@@ -84,7 +86,7 @@ $(document).ready(function(){
 
 
 
-     if (weather==="clear sky"){
+     if (weather_id==="clear sky"){
 
        $('.jumbotron').css({'background-image':'url(clear_sky.png)','background-repeat' : 'no-repeat'});
 
@@ -95,21 +97,21 @@ $(document).ready(function(){
      }
 
 
-     if (weather==="shower rain"||"	rain"){
+     if (weather_id===501|| 502 ||503 || 504||511||520||521||522|531){
 
        $('.jumbotron').css("background", "background-repeat: no-repeat","url(rainy.jpg)");
 
 
      }
 
-     if (weather==="snow"){
+     if (weather_id==="snow"){
 
        $('.jumbotron').css("background","background-repeat: no-repeat", "url(snow.jpg)");
 
 
      }
 
-     if (weather==="thunder"){
+     if (weather_id==="thunder"){
 
        $('.jumbotron').css("background-image","background-repeat: no-repeat", "url(thunder.jpg)");
 
