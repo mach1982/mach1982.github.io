@@ -67,7 +67,7 @@ $(document).ready(function(){
 
 
 
-
+//clouds
 
      if (weather_id===801||802||803||804){
 
@@ -76,6 +76,7 @@ $(document).ready(function(){
 
 
       }
+      //default
       else {
 
         ('.jumbotron').css({'background-image':'url(clouds.jpg)','background-repeat' : 'no-repeat'});
@@ -86,7 +87,8 @@ $(document).ready(function(){
 
 
 
-     if (weather_id==="clear sky"){
+//clear sky
+     if (weather_id===800){
 
        $('.jumbotron').css({'background-image':'url(clear_sky.png)','background-repeat' : 'no-repeat'});
 
@@ -97,26 +99,46 @@ $(document).ready(function(){
      }
 
 
+
+//Rain
      if (weather_id===501|| 502 ||503 || 504||511||520||521||522|531){
 
        $('.jumbotron').css("background", "background-repeat: no-repeat","url(rainy.jpg)");
 
 
      }
+     else{
+      $('.jumbotron').css("background", "url(clouds.jpg)");
 
-     if (weather_id==="snow"){
+     }
+
+//Snow
+
+     if (weather_id===601||602||611||612||615||616||620||621||622){
 
        $('.jumbotron').css("background","background-repeat: no-repeat", "url(snow.jpg)");
 
 
      }
+     else{
+      $('.jumbotron').css("background", "url(clouds.jpg)");
 
-     if (weather_id==="thunder"){
+     }
+
+
+//Thunder
+     if (weather_id===200||201||202||210||211||212||221||230||231||232){
 
        $('.jumbotron').css("background-image","background-repeat: no-repeat", "url(thunder.jpg)");
 
 
      }
+     else{
+      $('.jumbotron').css("background", "url(clouds.jpg)");
+
+     }
+
+
 
 
     var unit="C";
