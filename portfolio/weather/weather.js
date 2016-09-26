@@ -101,7 +101,7 @@ $(document).ready(function(){
 
 
 //Rain
-     if (weather_id===501|| 502 ||503 || 504||511||520||521||522|531){
+     if (weather_id===500||501|| 502 ||503 || 504||511||520||521||522|531){
 
        $('.jumbotron').css("background", "background-repeat: no-repeat","url(rainy.jpg)");
 
