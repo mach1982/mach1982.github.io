@@ -63,7 +63,7 @@ $(document).ready(function(){
 
     weather_id=json.weather[0].id;
     weather=json.weather[0].description;
-    alert(weather);
+    alert(weather_id);
 
 
 
