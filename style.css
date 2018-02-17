@@ -1,4 +1,67 @@
-#intro { 
-    background-color: #1abc9c; /* Orange */
-    color: #ffffff;
+
+
+#header {
+    background-color: #42f45c;
+    color: black;
+    text-align: center;
+    font-family: arial, sans-serif;
+}
+
+#content{
+  padding: 10px
+
+}
+
+#main{
+  float:right;
+  width: 1080px
+
+
+}
+
+#nav{
+  width:180px;
+  float:left;
+  padding: 10px;
+}
+
+#nav ul {
+
+  padding:0;
+  list-style-type: none;
+}
+
+#footer{
+  clear: both;
+  text-align:right;
+  color: red;
+  padding:10px;
+
+}
+
+body{
+background-color: #eee;
+
+}
+p{
+  text-align: center;
+  font-family: arial, sans-serif;
+
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
 }
