@@ -43,6 +43,25 @@ document.form.textview.value = Math.sqrt(eval(document.form.textview.value))
 	
 }
 
+function pm() {
+
+if(eval(document.form.textview.value)<0){
+document.form.textview.value = Math.abs(eval(document.form.textview.value))
+}	
+
+else if (eval(document.form.textview.value)>0) {
+
+document.form.textview.value = -Math.abs(eval(document.form.textview.value))
+
+	
+
+		
+	
+}
+
+}
+
+
 </script>
 
 <style>
@@ -66,7 +85,7 @@ document.form.textview.value = Math.sqrt(eval(document.form.textview.value))
 }
 
 .textview{
-	width:200px;
+	width:195px;
 	margin: 5px;
 	font-size:25px;
 	padding: 5;
@@ -132,7 +151,7 @@ body { background:linear-gradient(to right,red,blue);}
 		
 		<td><input type ="button" class="button" name="button_1" value="." onclick="insert('.')"></td>
 		<td><input type ="button" class="button" name="button_0" value="0" onclick="insert(0)"></td>
-	   <td><input type ="button" class="button" name="button_pm" value="+/-" ></td>
+	   <td><input type ="button" class="button" name="button_pm" value="+/-" onclick="pm()"></td>
 	    <td><input type ="button"  class="button" name="button_eq" value="=" onclick="equal()" ></td>
 	</tr>
 	</table>
