@@ -19,7 +19,10 @@
 
 }
 
+h1 {
 
+text-align: center;
+}
 
 
 nav ul {
@@ -67,6 +70,15 @@ p{
 #contact{
 
 text-align:center;
+
+}
+
+.certs{
+	
+	float: auto;
+	text-align: center;
+
+}
 
 }
 
