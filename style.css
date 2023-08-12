@@ -7,10 +7,36 @@
     font-family: arial, sans-serif;
 }
 
-#content{
+
+h1 {
+
+text-align: center;
+}
+
+
+body{
+  display: flex;
+  justify-content:  center;
+  align-items: center;
+  height: 100vh;
+
+  background-color: rgb(51, 84, 84);
+
+}
+
+p{
+  text-align: center;
+  font-family: arial, sans-serif;
+
+}
+
+.projects{
+  display: grid;
+  grid-template-columns: auto auto auto;
   padding: 10px
 
 }
+
 
 #main{
   float:right;
@@ -19,67 +45,5 @@
 
 }
 
-h1 {
-
-text-align: center;
-}
-
-
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #333;
-}
-
-li {
-  float: right ;
-}
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-/* Change the link color to #111 (black) on hover */
-li a:hover {
-  background-color: #111;
-}
-
-footer{
-  clear: both;
-  text-align:right;
-  padding:10px;
-
-}
-
-body{
-background-color: #eee;
-
-}
-p{
-  text-align: center;
-  font-family: arial, sans-serif;
-
-}
-
-#contact{
-
-text-align:center;
-
-}
-
-.certs{
-	
-	float: auto;
-	text-align: center;
-
-
-
-}
 
 
