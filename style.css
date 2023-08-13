@@ -1,13 +1,5 @@
 
 
-#header {
-    background-color: #42f45c;
-    color: black;
-    text-align: center;
-    font-family: arial, sans-serif;
-}
-
-
 h1 {
 
 text-align: center;
@@ -20,7 +12,7 @@ body{
   align-items: center;
   height: 100vh;
 
-  background-color: rgb(17, 201, 233);
+  background-color: rgb(195, 198, 199);
 
 }
 
