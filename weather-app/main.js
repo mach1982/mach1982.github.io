@@ -1,7 +1,5 @@
 
 
- 
- 
 //const city  = document.getElementById("cityInput").value;
 
 
