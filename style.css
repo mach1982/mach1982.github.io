@@ -7,34 +7,17 @@ text-align: center;
 
 
 body{
-  display: flex;
-  justify-content:  center;
-  align-items: center;
-  height: 100vh;
+  
 
   background-color: rgb(195, 198, 199);
 
 }
 
-p{
+.container{
+  display: flex;
   text-align: center;
+  font-size: 2rem;
   font-family: arial, sans-serif;
-
-}
-
-.projects{
-  display: grid;
-  grid-template-columns: auto auto auto;
-  padding: 10px
-
-}
-
-
-#main{
-  float:right;
-  width: 1080px
-
-
 }
 
 
