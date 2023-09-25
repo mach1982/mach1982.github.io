@@ -1,5 +1,4 @@
 
-
 h1 {
 
 text-align: center;
@@ -15,10 +14,16 @@ body{
 
 .container{
   display: flex;
+  align-items: center;
   text-align: center;
   font-size: 2rem;
   font-family: arial, sans-serif;
 }
+
+.projects{
+  
+  
+  }
 
 
 
