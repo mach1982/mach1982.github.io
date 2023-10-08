@@ -20,6 +20,17 @@ body{
   font-family: arial, sans-serif;
 }
 
+.icon-square {
+  width: 3rem;
+  height: 3rem;
+  border-radius: 0.75rem;
+}
+
+.profile-img {
+  height: 100px;
+  border-radius: 50%;
+}
+
 
 
 
