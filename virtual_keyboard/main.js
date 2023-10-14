@@ -24,7 +24,7 @@ document.querySelector('#app').innerHTML = `
 
     </div>
     
-    <div class="homeRown">
+    <div class="homeRow">
       <input id="a" type="button" value="a">
       <input id="s" type="button" value="s">
       <input id="d" type="button" value="d">
@@ -52,7 +52,7 @@ document.querySelector('#app').innerHTML = `
 
     <div>
     <input id="space" type="button" value=" ">
-    </din>
+    </div>
 
 `
 
