@@ -1,0 +1,149 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+/* Global styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width:100vw;
+  margin: 0 auto;
+}
+
+/* Header styles */
+.App-header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+.App-header h1 {
+  font-size: 2rem;
+  margin: 10px 0;
+}
+
+nav {
+  
+  width: 100%; /* Set navigation width to 100% */
+  margin: 0;   /* Remove default margins */
+  padding: 0;  /* Remove default padding */
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.2rem;
+}
+
+/* Main styles */
+main {
+  padding: 20px;
+}
+
+/* Section styles */
+section {
+  margin: 40px 0;
+}
+
+section h2 {
+  color: black;
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+/* Project card styles */
+.project-card {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-top: 20px;
+}
+
+.project-card h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.project-card p {
+  margin-bottom: 10px;
+}
+
+/*Contact Styles*/
+#contact {
+  padding: 0 20%; /* 20px padding on the left and right sides */
+}
+
+/* Form styles */
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  color: #555;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  nav {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav a {
+    margin: 10px 0;
+  }
+}
