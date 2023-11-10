@@ -32,9 +32,8 @@ const App = () => {
     <main>
       <section id='about'>
         <h2>About Me</h2>
-        <p>I am IT professional with over 10 years of experience in IT support, seeking to transition into Web development. am passionate about programming, especially for web development, and Cybersecurity. Four years ago I set a goal of getting a job in Cybersecurity before I turned 40. I achieved that goal but realised I was not suited to it and my true passion lies in programming and web development. </p>
-        <p>I have a good understanding of HTML5, JavaScript, and CSS. I'm currently doing a frontend development course leaning how use frameworks like Bootstrap, and React.js. This page is written in React. </p>
-        <p>I am interested in working on web development projects that are user-friendly and visually appealing Below you will find some some of my projects:</p>
+        <p>Hey there! I've been in IT support for over a decade, and now I'm transitioning  into the fascinating world of web development. I've always had a thing for programming, especially when it comes to web development. Cybersecurity is another passion of mine. Landing a role at a top cybersecurity firm about two years ago was a huge win for me – it was a longstanding goal. However, it turned out not to be the perfect fit.I've come to realize that my heart truly lies in web development, so I'm transitioning cybersecurity into more of a hobby than a full-time career . I'm well-versed in frontend development technologies like HTML, CSS, JavaScript, Bootstrap, and React. Check out some of the projects I've worked on below, or if you're interested, you can peek at the source code on my GitHub. </p>
+        
       </section>
 
       <section id='projects'>
