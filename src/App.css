@@ -30,7 +30,7 @@ body {
 .App-header {
   background-color: #333;
   color: #fff;
-  padding: 20px;
+  /*padding: 20px;*/
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
 }
@@ -136,8 +136,28 @@ footer {
   border-bottom-right-radius: 10px;
 }
 
+
+img {
+  max-width: 50vw; /* or width: 200px; */
+  height: auto;
+}
+
 /* Responsive styles */
-@media (max-width: 768px) {
+
+
+@media only screen and (max-width: 425px) {
+  .App {
+    width: 50vw; /* Adjust the width for smaller screens */
+  }
+
+  .App-header {
+    padding: 10px; /* Reduce padding for smaller screens */
+  }
+
+  main {
+    padding: 10px; /* Adjust padding in main for smaller screens */
+  }
+
   nav {
     display: flex;
     flex-direction: column;

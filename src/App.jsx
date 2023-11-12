@@ -1,6 +1,7 @@
 import React from 'react'
 import './App.css'
 import Projects from './Projects';
+import Contact from './Contact';
 import caljs from './images/caljs.png'
 import cc from './images/cc.png'
 import carmate from './images/carmate.png'
@@ -36,6 +37,8 @@ const App = () => {
         
       </section>
 
+      <h4>The primary purpose of this site is to showcase my projects. As I continue learning, I'll be updating regularly, which might lead to things breaking. If you find something not working, please don't hesitate to <a href='#contact'>contact me</a> </h4>
+
       <section id='projects'>
         
         <h2>Projects</h2>
@@ -49,7 +52,7 @@ const App = () => {
           />
           <Projects 
             name ="Currency Converter"
-            description ="A basic JavaScript Currency Converter basic CSS styling"
+            description ="A basic JavaScript Currency Converter basic CSS styling.(Need to update as API has stop working)"
             url ="https://mach1982.github.io/currency_converter/"
             img ={cc}
           />
@@ -101,20 +104,11 @@ const App = () => {
         </div>
       </section>
 
+     
+
       <section id='contact'>
-        <h2>Contact me</h2>
-        <form>
-          <label htmlFor="name">Name</label>
-          <input type="text" name="name" id="name" required />
-
-          <label htmlFor="email">E-mail:</label>
-          <input type="email" name="email" id="email" required />
-
-          <label htmlFor="message">Message:</label>
-          <textarea name="message" id="message" cols="30" rows="10" required></textarea>
-
-          <button type="submit">Send message</button>
-        </form>
+        <Contact />
+       
       </section>
 
 
