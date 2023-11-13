@@ -26,7 +26,7 @@ const App = () => {
           <a href='#about'>About</a>
           <a href='#projects'>Projects</a>
           <a href='#contact'>Contact Me</a>
-          <a href='https://github.com/mach1982/'>Git-Hub</a>
+          <a href='https://github.com/mach1982/'>GitHub</a>
         </nav>
       </header>
 
